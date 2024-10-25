@@ -55,8 +55,8 @@ export default function MovieCard({ movie }) {
             alt=""
           />
           <figcaption className="pt-4">
-            <h3 className="text-xl mb-1">{movie.title}</h3>
-            <p className="text-[#575A6E] text-sm mb-2">{movie.genre}</p>
+            <h3 className="text-[23px] mb-1">{movie.title}</h3>
+            <p className="text-[#575A6E] text-sm mb-2  md:text-[19px]  dark:text-[#a3a7be]">{movie.genre}</p>
             <div className="flex items-center space-x-1 mb-5">
               <Rating value={movie.rating} />
             </div>
